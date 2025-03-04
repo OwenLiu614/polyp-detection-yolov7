@@ -1,0 +1,5 @@
+train: D:/pythonProjects/yolov7/dataset/polyps/images/train
+val: D:/pythonProjects/yolov7/dataset/polyps/images/valid
+
+nc: 1
+names: ["polyp"]
