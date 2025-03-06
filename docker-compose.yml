@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  yolov7:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: yolov7-owen:latest  # ✅ 这里定义新镜像名称
+    container_name: yolov7-container
+    volumes:
+      - ./models:/workspace/models
+      - ./utils:/workspace/utils
+      - ./try.py:/workspace/try.py
+      - ./requirements.txt:/workspace/requirements.txt
+    stdin_open: true
+    tty: true

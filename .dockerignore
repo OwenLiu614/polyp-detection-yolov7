@@ -1,0 +1,27 @@
+# 忽略数据集目录
+datasets/
+data/
+test_images/
+train_images/
+valid_images/
+
+# 忽略 Python 虚拟环境
+.venv/
+env/
+
+# 忽略缓存和编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略 PyCharm / VSCode 相关文件
+.idea/
+.vscode/
+
+# 忽略日志和临时文件
+*.log
+
+# 忽略 Git 相关文件
+.git/
+.gitignore
