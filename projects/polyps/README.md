@@ -1,6 +1,6 @@
 # polyp-detection-yolov7
 
-This repo is a fork of YOLOv7 with a small set of project-specific utilities for a polyps dataset.
+项目总览与结果展示见仓库顶层 `README.md` 和 `docs/RESULTS.md`。本文件保留更偏“工程使用”的快速命令索引。
 
 ## Dataset
 
